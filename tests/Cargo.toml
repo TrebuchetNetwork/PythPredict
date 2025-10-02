@@ -1,0 +1,15 @@
+[package]
+name = "tests"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+name = "tests"
+path = "src/lib.rs"
+
+[dependencies]
+anchor-client = "0.31.1"
+anchor-lang = "0.31.1"
+pythpredict = { version = "0.1.0", path = "../programs/pythpredict" }
+

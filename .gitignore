@@ -1,0 +1,41 @@
+# Anchor
+.anchor
+target/
+**/*.rs.bk
+
+# Node
+node_modules/
+.yarn/
+
+# Solana
+test-ledger/
+.wallets/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.so
+*.dylib
+*.dll
+
+# Temporary files
+cmd.txt
+cmdall.txt
+*.log
+
+# Optional: Cargo.lock (uncomment if this is a library)
+Cargo.lock
+
+# Wallets - NEVER commit!
+.wallets/*.json
+.wallets/**/*.json
+!.wallets/README.md
